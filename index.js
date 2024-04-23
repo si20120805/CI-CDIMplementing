@@ -5,6 +5,7 @@ app.get('/alllist',(req,res)=>{
 })
 app.get('/all',(req,res)=>{
     console.log()
+    console.log('razer')
     res.json({msg:'to test the tag in the GIT'})
 })
 app.listen(5000,()=>{console.log('listinging to the port ')})
