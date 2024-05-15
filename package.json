@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx rollup -c"
+    "build": "npx rollup -c",
+    "dev":"node --watch --env-file=.env index.js"
+    
   },
   "keywords": [],
   "author": "",
